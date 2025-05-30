@@ -1,8 +1,8 @@
 #!/bin/bash
 
-RED='\033[0;31m'
-GREEN='\033[0;32m'
-YELLOW='\033[1;33m'
+RED=$'\033[0;31m'
+GREEN=$'\033[0;32m'
+YELLOW=$'\033[1;33m'
 NC=$'\033[0m'
 WHITE=$'\033[1;37m'
 BLUE=$'\033[1;34m'
@@ -31,6 +31,11 @@ if [[ $EUID -ne 0 ]]; then
   exit 1
 fi
 echo -e "\n${RED}$(figlet -f slant MAC - Spoof )\n${NC}"
+
+max_width=$(echo "$FIGLET_TEXT" | awk '{ if ( length > max ) max = length } END { print max }')
+echo -e "\n"
+echo  -e "${YELLOW}                                        Created by: MohammedAbdulAhadSaud"
+echo -e "                                        GitHub: https://github.com/MohammedAbdulAhadSaud/AutoMacChanger${NC}"
 
 ALL_INTERFACES=$(ls /sys/class/net)
 
