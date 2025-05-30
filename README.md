@@ -4,7 +4,7 @@ Bash script that automatically changes the MAC address of a specified network in
 # Features
 - Automatically randomizes the MAC address for any given network interface.
 - Shows all the available INTERFACE to which the MAC Spoof can be done
-- Ask for the Time Interval to change the MAC
+- Prompt for the Time Interval to change the MAC
 - Easy to configure by changing the network interface variable.
 - Useful for privacy protection, avoiding MAC-based tracking, or testing network setups.
 
