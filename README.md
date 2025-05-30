@@ -19,4 +19,4 @@ Bash script that automatically changes the MAC address of a specified network in
 - Other figlet for banner
   ``` bash
   sudo apt-get install figlet
-```
+  ```
