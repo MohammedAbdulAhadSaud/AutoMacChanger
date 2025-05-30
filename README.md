@@ -16,7 +16,7 @@ Bash script that automatically changes the MAC address of a specified network in
   sudo apt-get install macchanger
   ```
 - Running the script with sufficient privileges (usually requires sudo).
-- Other figlet for banner
+- Figlet for banner
   ``` bash
   sudo apt-get install figlet
   ```
