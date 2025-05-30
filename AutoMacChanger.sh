@@ -34,8 +34,8 @@ echo -e "\n${RED}$(figlet -f slant MAC - Spoof )\n${NC}"
 
 max_width=$(echo "$FIGLET_TEXT" | awk '{ if ( length > max ) max = length } END { print max }')
 echo -e "\n"
-echo  -e "${YELLOW}                                        Created by: MohammedAbdulAhadSaud"
-echo -e "                                        GitHub: https://github.com/MohammedAbdulAhadSaud/AutoMacChanger${NC}"
+echo  -e "${BLUE}                                        Created by: MohammedAbdulAhadSaud${NC}"
+echo -e "${YELLOW}                                        GitHub: https://github.com/MohammedAbdulAhadSaud/AutoMacChanger${NC}"
 
 ALL_INTERFACES=$(ls /sys/class/net)
 
